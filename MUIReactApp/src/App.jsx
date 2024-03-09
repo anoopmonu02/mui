@@ -4,6 +4,7 @@ import MuiSwitch from "./components/MuiSwitch"
 import MuiAutoComplete from "./components/MuiAutoComplete"
 import MuiLayout from "./components/MuiLayout"
 import MuiCard from "./components/MuiCard."
+import MuiAccordian from "./components/MuiAccordian"
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <br></br>
       <MuiLayout />
       <MuiCard />
+      <MuiAccordian />
     </>
   )
 }
