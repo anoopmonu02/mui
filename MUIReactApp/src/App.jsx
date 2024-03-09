@@ -5,11 +5,16 @@ import MuiAutoComplete from "./components/MuiAutoComplete"
 import MuiLayout from "./components/MuiLayout"
 import MuiCard from "./components/MuiCard."
 import MuiAccordian from "./components/MuiAccordian"
+import MuiNavbar from "./components/MuiNavbar"
+import { CssBaseline } from "@mui/material"
+import MuiLink from "./components/MuiLink"
 
 function App() {
 
   return (
     <>
+      <CssBaseline />
+      <MuiNavbar />
       <MuiRadioBtn />
       <MuiCheckbox />
       <MuiSwitch />
@@ -18,6 +23,9 @@ function App() {
       <MuiLayout />
       <MuiCard />
       <MuiAccordian />
+      <hr/>
+      <MuiLink />
+
     </>
   )
 }
