@@ -1,6 +1,7 @@
 import MuiRadioBtn from "./components/MuiRadioBtn"
 import MuiCheckbox from "./components/MuiCheckbox"
 import MuiSwitch from "./components/MuiSwitch"
+import MuiAutoComplete from "./components/MuiAutoComplete"
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <MuiRadioBtn />
       <MuiCheckbox />
       <MuiSwitch />
+      <MuiAutoComplete />
     </>
   )
 }
