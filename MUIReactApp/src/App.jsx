@@ -3,6 +3,7 @@ import MuiCheckbox from "./components/MuiCheckbox"
 import MuiSwitch from "./components/MuiSwitch"
 import MuiAutoComplete from "./components/MuiAutoComplete"
 import MuiLayout from "./components/MuiLayout"
+import MuiCard from "./components/MuiCard."
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <MuiAutoComplete />
       <br></br>
       <MuiLayout />
+      <MuiCard />
     </>
   )
 }
